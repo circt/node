@@ -4,7 +4,7 @@
   "description": "NodeJS to CIRCT bindings",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/circt/node/issues"
   },
-  "homepage": "https://github.com/circt/node#readme"
+  "homepage": "https://github.com/circt/node#readme",
+  "dependencies": {
+    "cmake-js": "^6.1.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "chai": "^4.3.3",
+    "eslint": "^7.21.0",
+    "mocha": "^8.3.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node8",
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
+  }
 }
