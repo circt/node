@@ -2,20 +2,23 @@
   "name": "circt",
   "version": "0.1.0",
   "description": "NodeJS to CIRCT bindings",
+  "author": "",
+  "license": "Apache-2.0",
   "main": "./lib/index.js",
-  "scripts": {
-    "test": "eslint lib"
-  },
+  "homepage": "https://github.com/circt/node#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/circt/node.git"
   },
-  "author": "",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/circt/node/issues"
   },
-  "homepage": "https://github.com/circt/node#readme",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "eslint lib"
+  },
   "dependencies": {
     "cmake-js": "^6.1.0",
     "node-addon-api": "^3.1.0"
