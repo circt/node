@@ -5,6 +5,9 @@
   "author": "",
   "license": "Apache-2.0",
   "main": "./lib/index.js",
+  "bin": {
+    "firtool": "bin/firtool"
+  },
   "homepage": "https://github.com/circt/node#readme",
   "repository": {
     "type": "git",
@@ -14,6 +17,7 @@
     "url": "https://github.com/circt/node/issues"
   },
   "files": [
+    "bin",
     "lib"
   ],
   "scripts": {
